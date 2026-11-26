@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th>Nombre</th>
+                <th>Duracion</th>
+                <th>Pegi</th>
+                <th>Año lanzamiento</th>
+                <th>Desarrollador</th>
+            </tr>
+
+        
+        </thead>
+        <tbody id="cuerpo">
+    
+        </tbody>
+    </table>
+
+    <button onclick="buscar_nombre()">Buscar por nombre</button>
+    <button onclick="max_min()">Videojuegos con mayor y menor duracion</button>
+    <button onclick="nuevo_videojuego()">Añadir videojuego</button>
+    <button onclick="eliminar()">Eliminar videojuego</button>
+    <button onclick="imprimir_tabla(videojuegos)">Limpiar filtro</button>
+    
+    
+</body>
+</html>

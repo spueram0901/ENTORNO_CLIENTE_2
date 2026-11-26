@@ -71,20 +71,43 @@
 // Metidas por prompt , muestra la media , maxima y minima de todas ellas.
 
 
-let edades = new Array(5);
+// let edades = new Array(5);
 
-for(let i = 0; i<edades.length;i++){
-    edades[i] = (window.prompt("Introduce la edad ${i}"));
+// for(let i = 0; i<edades.length;i++){
+//     edades[i] = (window.prompt("Introduce la edad ${i}"));
+// }
+
+
+// let media = 0;
+// for(edad of edades){
+//     media = media + array[i];
+// }
+
+// console.log("la edad maxima es" + Math.max(...edades));
+
+// console.log("la edad minima es" + Math.min(...edades));
+
+// console.log("la edad media es" + media / edades.length);
+
+
+///////////////////////////////////////////////////
+
+let m = [
+
+    [1,2,3],
+    [4,5,6],
+    [7,8,9]
+
+]
+
+console.log(m);
+
+
+for(let i=0;i<m.length;i++){
+    for(let j=0;j<m[i].length;j++){
+        m[i][j] += 5;
+    }
 }
 
+console.log(m);
 
-let media = 0;
-for(edad of edades){
-    media = media + array[i];
-}
-
-console.log("la edad maxima es" + Math.max(...edades));
-
-console.log("la edad minima es" + Math.min(...edades));
-
-console.log("la edad media es" + media / edades.length);
